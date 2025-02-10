@@ -1,4 +1,4 @@
-# 🚀 Análise de Crédito com Random Forest e KNN  
+# 📈 Análise de Crédito com Random Forest e KNN  
 📌 Previsão de Score de Crédito com Machine Learning
 
 Este projeto tem como objetivo analisar dados de crédito e criar um modelo de previsão utilizando algoritmos de machine learning, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em suas informações financeiras.
