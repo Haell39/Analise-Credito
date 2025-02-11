@@ -5,9 +5,9 @@ Este projeto tem como objetivo analisar dados de crédito e criar um modelo de p
 
 🛠️ **Tecnologias Utilizadas**  
 ✅ Linguagem: Python  
-✅ Bibliotecas: Pandas, Scikit-Learn, Matplotlib, Seaborn  
+✅ Bibliotecas: Pandas, Scikit-Learn.
 ✅ Modelos: Random Forest, K-Nearest Neighbors (KNN)  
-✅ Ferramentas: Jupyter Notebook, Git, GitHub  
+✅ Ferramentas: Jupyter Notebook, Git, GitHub
 
 🔥 **Objetivos de Aprendizado 🎯**  
 🔹 Pré-processamento e limpeza de grandes volumes de dados  
