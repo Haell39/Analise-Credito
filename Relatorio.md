@@ -92,9 +92,8 @@ Dois modelos foram treinados e avaliados com base nas cinco variáveis mais corr
 - Variáveis como `juros_emprestimo` e `num_pagamentos_atrasados` foram determinantes na classificação do score.  
 - Para novos clientes, o Random Forest previu "Poor" para o Cliente 0 e "Good" para os Clientes 1 e 2, enquanto o KNN foi mais conservador, sugerindo "Standard" para os dois últimos.  
 
----
 
-## **Melhorias Futuras**  
+### **Melhorias Futuras**  
 - **Próximas Implementações:**  
   - Aplicar validação cruzada para aumentar a robustez e a generalização dos modelos.  
   - Explorar métricas adicionais, como F1-score, para mitigar os efeitos do desbalanceamento de classes.  
