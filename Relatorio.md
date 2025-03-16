@@ -12,7 +12,6 @@
 4. [Modelagem](#modelagem)
 5. [Previsão em Novos Clientes](#previsão-em-novos-clientes)
 6. [Conclusão](#conclusão)
-7. [Recomendações](#recomendações)
 
 ---
 
