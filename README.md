@@ -1,42 +1,82 @@
-# 📈 Análise de Crédito com Random Forest e KNN  
-📌 Previsão de Score de Crédito com Machine Learning
-
-Este projeto tem como objetivo analisar dados de crédito e criar um modelo de previsão utilizando algoritmos de machine learning, como Random Forest e K-Nearest Neighbors (KNN), para prever o score de crédito de clientes com base em suas informações financeiras.
-
-🛠️ **Tecnologias Utilizadas**  
-✅ Linguagem: Python  
-✅ Bibliotecas: Pandas, Scikit-Learn.
-✅ Modelos: Random Forest, K-Nearest Neighbors (KNN)  
-✅ Ferramentas: Jupyter Notebook, Git, GitHub
-
-🔥 **Objetivos de Aprendizado 🎯**  
-🔹 Pré-processamento e limpeza de grandes volumes de dados  
-🔹 Implementação de modelos de machine learning (Random Forest e KNN)  
-🔹 Análise de variáveis e transformação de features  
-🔹 Avaliação de modelos com métricas como acurácia, precisão e recall  
-
-📌 **Estrutura do Projeto**  
-
-```plaintext
-previsao-score-credito-random-forest-knn/
-├── data/                # Conjuntos de dados utilizados na análise  
-│   ├── clientes.csv     # Dados de clientes com informações financeiras  
-│   └── novos_clientes.csv # Dados de novos clientes para teste do modelo  
-├── src/                 # Scripts de pré-processamento e modelagem  
-├── notebooks/           # Notebooks para análise exploratória  
-├── requirements.txt     # Arquivo com as dependências necessárias para o projeto  
-├── README.md            # Documento de explicação do projeto  
-└── LICENSE              # Licença de uso do projeto
-```
-
-### ⚙️ Lembre-se de instalar as dependências antes de rodar o projeto:
-📥 pip install -r requirements.txt
-
----
-📌 **Autor**: Rafael Dutra (Haell)  
-📬 **Contato**: [rafaeldutrapro@gmail.com]
+# **Previsão de Score de Crédito** 🚀  
+**Autor:** [Rafael A. Dutra]  
+**Data:** [15/03/2025]  
+**Repositório:** https://github.com/Haell39/Analise-Credito/tree/main
 
 ---
 
+## **Visão Geral** 📋  
+Bem-vindo ao projeto **Previsão de Score de Crédito**! Este trabalho utiliza técnicas de ciência de dados para prever o `score_credito` de clientes com base em variáveis financeiras e comportamentais. O objetivo é fornecer insights acionáveis para decisões de crédito, combinando exploração de dados, modelagem preditiva e análise prática.  
 
+---
+
+## **Objetivo** 🎯  
+Prever o `score_credito` (classificado como "Good", "Standard" ou "Poor") de clientes, utilizando:  
+- **Dataset:** `clientes.csv` (100.000 registros) e `novos_clientes.csv` (3 novos clientes).  
+- **Variáveis principais:** `mix_credito`, `num_pagamentos_atrasados`, `num_contas`, `juros_emprestimo`, `num_cartoes`.  
+
+---
+
+## **Metodologia** 🛠️  
+1. **Exploração de Dados** 📊  
+   - Visualizações com histogramas, boxplots e heatmaps para entender distribuições e correlações.  
+   - Identificação de padrões, como o impacto de atrasos no pagamento no `score_credito`.  
+
+2. **Pré-processamento** 🔧  
+   - Codificação de variáveis categóricas com `LabelEncoder`.  
+   - Seleção das 5 variáveis mais correlacionadas ao alvo.  
+
+3. **Modelagem** 🤖  
+   - **Random Forest:** Acurácia de 0.72.  
+   - **KNN (k=5):** Acurácia de 0.70.  
+   - Avaliação da importância das features (e.g., `juros_emprestimo` como fator dominante).  
+
+4. **Previsão** 🚀  
+   - Aplicação dos modelos em novos clientes com resultados interpretados.  
+
+---
+
+## **Resultados** 📈  
+- **Random Forest:** Previu "Poor" para Cliente 0 e "Good" para Clientes 1 e 2.  
+- **KNN:** Previu "Poor" para Cliente 0 e "Standard" para Clientes 1 e 2.  
+- **Conclusão:** O Random Forest foi recomendado por sua maior acurácia (0.72).  
+
+| Cliente | RF Prediction | KNN Prediction |  
+|---------|---------------|----------------|  
+| 0       | Poor          | Poor           |  
+| 1       | Good          | Standard       |  
+| 2       | Good          | Standard       |  
+
+---
+
+## **Tecnologias Utilizadas** 💻  
+- **Python:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`.  
+- **Ambiente:** Jupyter Notebook.  
+- **Ferramentas:** VS Code, Notion (Anotações)
+
+---
+
+## **Como Executar** ⚙️  
+1. Clone o repositório: `git clone [URL]`.  
+2. Instale as dependências: `pip install -r requirements.txt`.  
+3. Execute o notebook: `jupyter notebook Previsao_Score_Credito.ipynb`.  
+
+---
+
+## **Diferenciais** 🌟  
+- Exploração detalhada com visualizações intuitivas.  
+- Comparação de dois modelos preditivos.  
+- Aplicação prática em novos dados com análise crítica dos resultados.  
+
+---
+
+## **Próximos Passos** 💡  
+- Implementar validação cruzada para maior robustez.  
+- Explorar métricas como F1-score para classes desbalanceadas.  
+- Otimizar hiperparâmetros dos modelos.  
+
+---
+
+**Contato:** rafaeldutrapro@gmail.com <br>
+**Agradecimentos:** Obrigado por conferir meu trabalho! Feedback é sempre bem-vindo! 😊  
 
