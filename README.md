@@ -1,7 +1,7 @@
 # **Previsão de Score de Crédito** 🚀
 
-**Autor:** Rafael A. Dutra
-**Data:** 15/03/2025
+**Autor:** Rafael A. Dutra <br>
+**Data:** 15/03/2025 <br>
 **Repositório:** https://github.com/Haell39/Analise-Credito/tree/main
 
 ---
