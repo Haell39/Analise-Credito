@@ -1,6 +1,6 @@
-### **Relatório de Projeto: Análise e Previsão de Score de Crédito**  
-**Autor:** [Seu Nome]  
-**Data:** [Data de Conclusão]  
+## **Relatório de Projeto: Análise e Previsão de Score de Crédito**  
+**Autor:** Rafael A. Dutra  
+**Data:** 15/03/2025  
 **Objetivo:** Prever o `score_credito` de clientes com base em variáveis financeiras e comportamentais, utilizando técnicas de ciência de dados.
 
 ---
