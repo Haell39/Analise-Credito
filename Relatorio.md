@@ -5,7 +5,7 @@
 
 ---
 
-#### **Sumário**
+### **Sumário**
 1. [Introdução](#introdução)
 2. [Exploração de Dados](#exploração-de-dados)
 3. [Pré-processamento](#pré-processamento)
@@ -16,12 +16,12 @@
 
 ---
 
-#### **Introdução**  
+## **Introdução**  
 Este projeto tem como objetivo analisar um conjunto de dados de clientes (`clientes.csv`) para prever o `score_credito` (classificado como "Good", "Standard" ou "Poor") com base em variáveis como `mix_credito`, `num_pagamentos_atrasados`, `num_contas`, `juros_emprestimo` e `num_cartoes`. Dois modelos de machine learning foram implementados — **Random Forest** e **KNN** — para comparar suas performances e aplicá-los em novos clientes (`novos_clientes.csv`), gerando previsões úteis para decisões financeiras.
 
 ---
 
-#### **Exploração de Dados** 📊  
+## **Exploração de Dados**  
 - **Carregamento e Inspeção:**  
   - Os dados foram carregados com a biblioteca `pandas`, contendo 100.000 linhas e 25 colunas.  
   - Não foram encontrados valores nulos, e os tipos de dados foram verificados com `table.info()`.  
@@ -39,7 +39,7 @@ Este projeto tem como objetivo analisar um conjunto de dados de clientes (`clien
 
 ---
 
-#### **Pré-processamento** 🔧  
+## **Pré-processamento**  
 - **Codificação:**  
   - Variáveis categóricas (`profissao`, `mix_credito`, `comportamento_pagamento`) foram transformadas em valores numéricos com `LabelEncoder`.  
   - O `score_credito` foi codificado como: 0 = "Good", 1 = "Poor", 2 = "Standard".  
@@ -52,7 +52,7 @@ Este projeto tem como objetivo analisar um conjunto de dados de clientes (`clien
 
 ---
 
-#### **Modelagem** 🤖  
+## **Modelagem**  
 Dois modelos foram treinados e avaliados com base nas cinco variáveis mais correlacionadas:  
 
 - **Random Forest:**  
@@ -70,7 +70,7 @@ Dois modelos foram treinados e avaliados com base nas cinco variáveis mais corr
 
 ---
 
-#### **Previsão em Novos Clientes** 🚀  
+## **Previsão em Novos Clientes**  
 - **Dados:** Arquivo `novos_clientes.csv` com 3 clientes.  
 - **Resultados das Previsões:**  
   - **Cliente 0:** Ambos os modelos preveem **"Poor"**.  
@@ -87,14 +87,14 @@ Dois modelos foram treinados e avaliados com base nas cinco variáveis mais corr
 
 ---
 
-#### **Conclusão** 📋  
+## **Conclusão**  
 - O modelo Random Forest (acurácia 0.72) demonstrou ser mais confiável que o KNN (0.70) para prever o `score_credito`.  
 - Variáveis como `juros_emprestimo` e `num_pagamentos_atrasados` foram determinantes na classificação do score.  
 - Para novos clientes, o Random Forest previu "Poor" para o Cliente 0 e "Good" para os Clientes 1 e 2, enquanto o KNN foi mais conservador, sugerindo "Standard" para os dois últimos.  
 
 ---
 
-#### **Melhorias Futuras** 💡  
+## **Melhorias Futuras**  
 - **Próximas Implementações:**  
   - Aplicar validação cruzada para aumentar a robustez e a generalização dos modelos.  
   - Explorar métricas adicionais, como F1-score, para mitigar os efeitos do desbalanceamento de classes.  
