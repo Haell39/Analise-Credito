@@ -1,4 +1,4 @@
-# **Previsão de Score de Crédito** 🚀
+# **Análise Preditiva de Score de Crédito** 🚀
 
 **Autor:** Rafael A. Dutra <br>
 **Data:** 15/03/2025 <br>
